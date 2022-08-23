@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gumphp\\LaravelAdminAuth\\LaravelAdminAuthProvider"
+                "Gumphp\\LaravelAdminAuth\\Providers\\LaravelAdminAuthProvider"
             ]
         }
     },
