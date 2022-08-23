@@ -1,0 +1,27 @@
+{
+    "name": "gumphp/laravel-admin-auth",
+    "description": "laravel admin auth package",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^9.26"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gumphp\\LaravelAdminAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gumphp\\LaravelAdminAuth\\LaravelAdminAuthProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "gumphp",
+            "email": "gumphp@qq.com"
+        }
+    ]
+}
